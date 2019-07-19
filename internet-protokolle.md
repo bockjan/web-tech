@@ -79,3 +79,5 @@
 
 * Datentransferdienste
 + WWW. Word wide web (WWW: Client = Browser, intuitive Benutzeroberfläche)
+
+## Ende der Vorlesung
