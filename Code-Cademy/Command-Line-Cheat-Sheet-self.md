@@ -134,3 +134,37 @@ In this case, sed searches forests.txt for the word “snow” and replaces it w
         $ sed 's/snow/rain/g' forests.txt 
 
 The above command uses the g expression, meaning “global”. Here sed searches forests.txt for the word “snow” and replaces it with “rain”, globally. All instances of “snow” on a line will be turned to “rain”.
+
+## Summerize
+
+
+    Redirection reroutes standard input, standard output, and standard error.
+
+    The common redirection commands are:
+        > redirects standard output of a command to a file, overwriting previous content.
+        >> redirects standard output of a command to a file, appending new content to old content.
+        < redirects standard input to a command.
+        | redirects standard output of a command to another command.
+
+    A number of other commands are powerful when combined with redirection commands:
+        sort: sorts lines of text alphabetically.
+        uniq: filters duplicate, adjacent lines of text.
+        grep: searches for a text pattern and outputs it.
+        sed : searches for a text pattern, modifies it, and outputs it.
+
+## nano
+
+Nice. You just edited a file in the nano text editor. How does it work?
+
+    $ nano hello.txt
+
+nano is a command line text editor. It works just like a desktop text editor like TextEdit or Notepad, except that it is accessible from the command line and only accepts keyboard input.
+
+    The command nano hello.txt opens a new text file named hello.txt in the nano text editor.
+    "Hello, I am nano" is a text string entered in nano through the cursor.
+    The menu of keyboard commands at the bottom of the window allow us to save changes to hello.txt and exit nano. The ^ stands for the Ctrl key.
+
+    Ctrl + O saves a file. ‘O’ stands for output.
+    Ctrl + X exits the nano program. ‘X’ stands for exit.
+    Ctrl + G opens a help menu.
+    clear clears the terminal window, moving the command prompt to the top of the screen.
