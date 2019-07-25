@@ -5,4 +5,4 @@
 ## III  -   Basics der Internet-Technologie
 ## IV   -   Web-Technologien
 
-Weiter inhalte folgen in kürze
+Weitere Inhalte folgen in kürze
