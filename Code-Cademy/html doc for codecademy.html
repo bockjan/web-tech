@@ -155,3 +155,46 @@
       </tr>
   </tbody>
 </table>
+
+<!--Forms-->
+<form action="/practice.html" method="POST">
+  <h1>practice</h1>
+  <p>
+    Relecant description
+  </p>
+  <input type="text">
+  <input type="name"> Username
+  <input type="password" name="password" id="user-pw">
+  <input type="number" name="amount" id="amount">
+  <input type="range" name="doneness" id="doneness" min="0" max="5" step="0.5">
+  <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+  <input type="checkbox" name="topping" id="tomato" value="tomato"> 
+  <label for="salat">Salat</label>
+  <input type="checkbox" name="topping" id="salat" value="salat">
+
+  <input type="radio" name="cheese" id="yes" value="yes">
+  <input type="radio" name="cheese" id="no" value="no">
+
+  <label for="bun">What type of bun would you like?</label>
+  <select name="bun" id="bun">
+    <option value="sesame">Sesam</option>
+    <option value="potato">Potato</option>
+    <option value="mustard">Mustard</option>
+  </select>
+
+
+  <label for="sauce">What type of sauce would you like?</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="ketchup">Ketchup</option>
+            <option value="mayo">Mayo</option>
+            <option value="senf">Senf</option>
+          </datalist>
+
+          <textarea name="extra" id="extra" cols="40" rows="3">
+            Default text
+          </textarea>
+
+
+  <input type="submit" value="Submit">
+</form>
